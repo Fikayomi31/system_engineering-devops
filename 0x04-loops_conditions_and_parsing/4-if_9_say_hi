@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+while ((i <= 10))
+do
+	echo "Beat School"
+	if ((i == 9))
+	then
+		echo "Hi"
+	fi
+	((i++))
+done
